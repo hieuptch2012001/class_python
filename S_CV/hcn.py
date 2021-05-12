@@ -1,20 +1,4 @@
-import math
-
-
-class circle():
-    def __init__(self, radius):
-        self.radius = radius
-
-    def dien_tich(self):
-        S = (self.radius ** 2) * math.pi
-        return S
-
-    def chu_vi(self):
-        cv = 2 * math.pi * self.radius
-        return cv
-
-
-class chu_nhat(circle):
+class chu_nhat():
     def __init__(self, a, b):
         self.a = a
         self.b = b
