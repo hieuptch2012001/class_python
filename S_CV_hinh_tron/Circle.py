@@ -6,7 +6,7 @@ class circle():
         self.radius = radius
 
     def dien_tich(self):
-        S = self.radius ** 2
+        S = (self.radius ** 2) * math.pi
         return S
 
     def chu_vi(self):
