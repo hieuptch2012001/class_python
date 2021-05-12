@@ -1,33 +1,35 @@
 class numerals():
+    number1 = 0
+    number2 = 0
+
     def __init__(self, number1, number2):
         self.number1 = number1
         self.number2 = number2
 
     def sum(self):
-        return self.number1 + self.number2
+        print('a + b = ', self.number1 + self.number2)
 
     def sub(self):
-        return self.number1 - self.number2
+        print('a - b = ', self.number1 - self.number2)
 
     def mul(self):
-        return self.number1 * self.number2
+        print('a * b = ', self.number1 * self.number2)
 
     def div(self):
         if self.number2 != 0:
-            return self.number1 / self.number2
+            print('a / b = ', self.number1 / self.number2)
         else:
             print("erorr")
 
 
 def main():
-    a = float(input("Nhập a = "))
-    b = float(input("Nhập b = "))
-    nub = numerals(a, b)
 
-    print("a + b = ", nub.sum())
-    print("a - b = ", nub.sub())
-    print("a * b = ", nub.mul())
-    print("a / b = ", nub.div())
+    nub = numerals(5, 3)
+
+    print(nub.sum())
+    print(nub.sub())
+    print(nub.mul())
+    print(nub.div())
 
 
 if __name__ == '__main__':
