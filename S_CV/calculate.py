@@ -13,7 +13,10 @@ class numerals():
         return self.number1 * self.number2
 
     def div(self):
-        return self.number1 / self.number2
+        if self.number2 != 0:
+            return self.number1 / self.number2
+        else:
+            print("erorr")
 
 
 def main():
