@@ -1,9 +1,8 @@
 #Create a Python class called BankAccount which represents a bank account, having as attributes: accountNumber (numeric type), name (name of the account owner as string type), balance.
 
+
 class BankAccount():
-
     def __init__(self, accountNumber, name, balance):
-
         self.accountNumber = accountNumber
         self.name = name
         self.balance = balance
