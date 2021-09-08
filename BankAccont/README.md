@@ -1,12 +1,11 @@
 #Create a Python class called BankAccount which represents a bank account, having as attributes: accountNumber (numeric type), name (name of the account owner as string type), balance.
 
 
-class BankAccount():
-
-    def __init__(self, accountNumber, name, balance):
-        self.accountNumber = accountNumber
-        self.name = name
-        self.balance = balance
+    class BankAccount():
+        def __init__(self, accountNumber, name, balance):
+            self.accountNumber = accountNumber
+            self.name = name
+            self.balance = balance
 
 #Create a constructor with parameters: accountNumber, name, balance.
 
@@ -17,9 +16,8 @@ class BankAccount():
 
 #Create a Deposit() method which manages the deposit actions.
 
-def Deposit(self, sum):
-
-    self.balance = self.balance + sum
+    def Deposit(self, sum):
+        self.balance = self.balance + sum
 
 #Create a Withdrawal() method which manages withdrawals actions.
 
