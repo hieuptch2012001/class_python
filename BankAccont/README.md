@@ -11,7 +11,6 @@ class BankAccount():
 #Create a constructor with parameters: accountNumber, name, balance.
 
     def __init__(self, accountNumber, name, balance):
-
         self.accountNumber = accountNumber
         self.name = name
         self.balance = balance
