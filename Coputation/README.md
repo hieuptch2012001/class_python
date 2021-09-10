@@ -14,11 +14,17 @@
 
 3 - Create a method called Sum() allowing to calculate the sum of the first n integers 1 + 2 + 3 + .. + n. Test this method.
 
-    def Sum(self, n):
-        a = 1
-        for i in range(1, n + 1):
-            a = a + i
-        return a
+    Ex1:
+        def Sum(self, n):
+            a = 0
+            for i in range(1, n + 1):
+                a = a + i
+            return a
+
+    Ex2:
+        def Sum(self, n):
+            a = n * ((n + 1) / 2)
+            return a
 
 4 - Create a method called testPrim() in the Calculation class to test the primality of a given integer. Test this method.
 
